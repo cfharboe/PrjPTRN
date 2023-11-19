@@ -115,20 +115,86 @@
 }
 
 .content{
- 
+margin-left: 100px;
+margin-right: 100px;
+background-color:  rgb(255,223,129);
 }
 
 .bahia {
+    width: 600px;
+}
 
+.container__content--start {
+    display: flex;
+    flex-direction:row;
 }
 
 .container-title {
-    
-
+   padding-top: 20px;
+   padding-left: 20px;
 }
 
-.container-curiosity {
-   
+.container__curiosity--start {
+    margin: 87px 15px 4px 15px;
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-right: 20px;
+    background-color: rgb(245,175,84);
+}
+
+.container__recipe--start {
+    padding-left: 100px;
+    background-color: rgb(266, 149, 170);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container__recipe--start h3 {
+    text-align:center;      
+}
+
+.specialties-container {
+    background-color:  rgb(219, 62, 40);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.specialties-container p {
+    text-align: center;
+}
+
+.table {
+    display: flex;
+    flex-direction:row;
+}
+
+.table #table-b {
+    margin-left: 20px;
+}
+
+.ceara {
+    width: 600px;
+}
+
+.container__content--one {
+    display: flex;
+    flex-direction:row;
+}
+
+.container__tittle--one {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.container__curiosity--one {
+    margin: 87px 15px 4px 15px;
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-right: 20px;
+}
+
+.alagoas {
+    width: 600px;
 }
 
 .links ul {
