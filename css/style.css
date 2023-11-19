@@ -1,0 +1,136 @@
+.container-anchor {
+    width: 100%;
+    background-color:rgb(219, 62, 40);
+    padding: 0em 2em;
+    height: 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container__anchor--one {
+    width: 100%;
+    background-color: rgb(253,189,24);
+    padding: 0em 2em;
+    height: 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container__anchor--two { 
+    width: 100%;
+    background-color: rgb(266, 149, 170) ;
+    padding: 0em 2em;
+    height: 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 4em;
+    padding-top: .5em;
+}
+
+.anchor__items--zero {
+    position:absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+    padding-right: 100px
+}
+
+.anchor__items--zero li {
+    display: inline-block;
+    text-transform: initial;
+    margin-left: 25px;
+}
+
+.anchor__items--zero li a {
+    color:rgb(245, 210, 26);
+    text-decoration: none;
+    transition: 5s; 
+}
+
+.anchor__items--one {
+    position:absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+    padding-right: 80px;
+}
+
+.anchor__items--one li {
+    display: inline-block;
+    text-transform: initial;
+    margin-left: 25px;
+}
+
+.anchor__items--one li a {
+    color: rgb(219, 62, 40) ;
+    text-decoration: none;
+    transition: 5s; 
+}
+
+.anchor__items--two {
+    position:absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 80px;
+    line-height: 80px;
+    padding-right: 80px;
+}
+
+.anchor__items--two li {
+    display: inline-block;
+    text-transform: initial;
+    margin-left: 25px;
+}
+
+.anchor__items--two li a {
+    color: rgb(245, 210, 26);
+    text-decoration: none;
+    transition: 5s; 
+}
+
+.main-banner {
+    background-image: url(../img/coco.webp);
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    background-image: url(../img/coco.webp);
+    padding: 10em 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:white;
+}
+
+.content{
+ 
+}
+
+.bahia {
+
+}
+
+.container-title {
+    
+
+}
+
+.container-curiosity {
+   
+}
+
+.links ul {
+    list-style: none;    
+}
