@@ -10,18 +10,16 @@
 </head>
 
 <body>
-  <div class="container">
     <header>
       <div class="container-anchor">
         <img class="logo" src="../img/chef-hat.png" alt="Chapéu do Chef">
-        <ul class="anchor__items--zero">
-          <li><a class="default-btn" href="#vatapa"> Vatapá. </a></li>
-          <li><a class="default-btn" href="#baiaodedois"> Baião de Dois. </a></li>
-          <li><a class="default-btn" href="#sururu"> Sururu ao Coco.</a></li>
+        <ul class="anchor-items">
+          <li><a href="#vtp" class="default-btn"> Vatapá. </a></li>
+          <li><a href="#baiaodedois" class="default-btn"> Baião de Dois. </a></li>
+          <li><a href="#sururu" class="default-btn"> Sururu ao Coco.</a></li>
         </ul>
       </div>
     </header>
-  </div>
   <main>
     <div class="main-banner">
       <h1> Pratos típicos do Nordeste. </h1>
@@ -30,7 +28,6 @@
     <article class="content">
       <div class="container__content--start">
         <div class="container-title">
-          <a id="acaraje"></a>
           <h2> Acarajé. </h2>
           <img class="bahia" src="../img/acaraje.jpg" alt="Acaraje">
         </div>
@@ -83,9 +80,13 @@
           <li> Deixe escorrer sobre papel absorvente e </li>
           <li> Abra cada bolinho ao meio e recheie com um pouco do Vatapá, dos camarões e do vinagrete. </li>
         </ol>
+        <p> Fontes:https://anamariabraga.globo.com/receita/acaraje-da-ana-maria/
+          https://repositorio.ufba.br/bitstream/ri/8774/1/dissertacao_florismar.pdf
+          https://www.costadosauipe.com.br/blog/voc-sabe-o-que-acaraj-conhea-a-histria-deste-smbolo-baiano
+          https://anamariabraga.globo.com/receita/vatapa-0001/</p>
       </div>
       <section class="specialties-container">
-        <a id="vatapa"></a>
+        <a id="vtp"></a>
         <p> Vatapá </p>
         <div class="table">
           <table id="table-a" border="1px">
@@ -161,12 +162,8 @@
           </table>
         </div>
       </section>
-      <p> Fontes:https://anamariabraga.globo.com/receita/acaraje-da-ana-maria/
-        https://repositorio.ufba.br/bitstream/ri/8774/1/dissertacao_florismar.pdf
-        https://www.costadosauipe.com.br/blog/voc-sabe-o-que-acaraj-conhea-a-histria-deste-smbolo-baiano
-        https://anamariabraga.globo.com/receita/vatapa-0001/</p>
       <div class="container__content--one">
-        <div class="container__tittle--one">
+        <div class="container__title--one">
           <a id="baiaodedois"></a>
           <h2> Baião de Dois. </h2>
           <img class="ceara" src="../img/baiaodedois.jpg" alt="BaiaodeDois">
@@ -221,11 +218,11 @@
           <li> Tampe a panela novamente e deixe que o vapor derreta o queijo e </li>
           <li> Sirva acompanhado de carne-de-sol frita ou assada. </li>
         </ol>
-      </div>
       <p> Fontes: https://www.receitasnestle.com.br/receitas/baiao-de-dois-tradicional
         https://blog.caitasupermercados.com.br/historia-do-baiao-de-dois/ </p>
+      </div>
       <div class="container__content--two">
-        <div class="container__tittle--two">
+        <div class="container__title--two">
           <a id="sururu"></a>
           <h2> Sururu ao Coco. </h2>
           <img class="alagoas" src="../img/sururuaococo.jpg" alt="SururuaoCoco">
@@ -276,11 +273,11 @@
       </div>
     </article>
   </main>
-  <footer>
+  <footer class="second">
     <section class="links">
       <ul>
         <li><a href="./apresentacao.html" target="_blank"> Apresentação. </a></li>
-        <li><a href="./receitasmapbpe.html" target="_blank"> Receitas AL, BA e CE. </a></li>
+        <li><a href="./receitasmapbpe.html" target="_blank"> Receitas MA, PB e PE. </a></li>
         <li><a href="./receitaspirnse.html" target="_blank"> Receitas PI, RN e SE. </a></li>
       </ul>
     </section>
